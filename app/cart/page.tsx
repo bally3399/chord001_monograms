@@ -9,7 +9,7 @@ import { supabase, type CartItem } from "@/lib/supabase"
 import { useToast } from "@/hooks/use-toast"
 import Link from "next/link"
 
-const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "1234567890"
+const whatsappNumber = "https://wa.me/+2347034942471"
 
 export default function CartPage() {
   const [cartItems, setCartItems] = useState<CartItem[]>([])
