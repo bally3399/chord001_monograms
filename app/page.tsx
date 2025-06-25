@@ -89,7 +89,7 @@ export default function HomePage() {
           </p>
           <div className="flex justify-center">
             <Link href="/designs">
-              <Button size="lg" className="bg-white text-black hover:bg-gray-100 text-lg px-8 py-3">
+              <Button size="lg" className="bg-white text-black hover:bg-black hover:text-white text-lg px-8 py-3">
                 Explore Designs
               </Button>
             </Link>
@@ -167,7 +167,7 @@ export default function HomePage() {
           {designs.length > 0 && (
             <div className="text-center mt-12">
               <Link href="/designs">
-                <Button variant="outline" className="border-white text-white hover:bg-white hover:text-black">
+                <Button variant="outline" className="border-white text-black hover:bg-black hover:text-white">
                   View All Designs
                 </Button>
               </Link>
@@ -194,7 +194,7 @@ export default function HomePage() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-white text-white hover:bg-white hover:text-black text-lg px-8 py-3"
+                  className="border-white text-black hover:bg-black hover:text-white text-lg px-8 py-3"
                 >
                   View Gallery
                 </Button>
@@ -202,7 +202,7 @@ export default function HomePage() {
             </div>
           ) : (
             <Link href="/designs">
-              <Button size="lg" className="bg-white text-black hover:bg-gray-100 text-lg px-8 py-3">
+              <Button size="lg" className="bg-white text-black hover:bg-black hover:text-white text-lg px-8 py-3">
                 Browse All Designs
               </Button>
             </Link>

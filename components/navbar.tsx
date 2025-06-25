@@ -14,6 +14,7 @@ export default function Navbar() {
   const [user, setUser] = useState<any>(null)
   const [cartCount, setCartCount] = useState(0)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [isMobileMenu, setIsMobileMenu] = useState(false)
   const router = useRouter()
 
   useEffect(() => {
